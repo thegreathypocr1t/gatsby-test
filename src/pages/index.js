@@ -9,7 +9,7 @@ const IndexPage = () => {
       <Helmet>
         <script
           async="async"
-          src="https://eu-consent-icon-dev-sf.truste-svc.net/notice?domain=weather.com&locale=en&js=nj&noticeType=bb&country=gb&text=true&gtm=1"
+          src="https://eu-consent-icon-dev-sf.truste-svc.net/notice?domain=weather.com&c=teconsent&locale=en&js=nj&noticeType=bb&country=gb&text=true&gtm=1"
           crossOrigin=""
           data-react-helmet="true"
         />

@@ -19,14 +19,14 @@ class Footer extends React.Component {
   render() {
     return (
       <div>
-        <Helmet>
+        {/* <Helmet>
           <script
             async="async"
             src="https://eu-consent-icon-dev-sf.truste-svc.net/notice?domain=weather.com&locale=en&js=nj&noticeType=bb&country=gb&text=true&gtm=1"
             crossOrigin=""
             data-react-helmet="true"
           />
-        </Helmet>
+        </Helmet> */}
         <div id="teconsent"></div>
         <div id="consent_blackbar"></div>
       </div>

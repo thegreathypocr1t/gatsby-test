@@ -1,6 +1,6 @@
 // Step 1: Import React
 import * as React from "react";
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 
 // Step 2: Define your component
 class Footer extends React.Component {

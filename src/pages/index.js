@@ -1,7 +1,6 @@
 // Step 1: Import React
 import * as React from "react";
-import { Helmet } from "react-helmet";
-import Footer from "../components/footer";
+// import Footer from "../components/footer";
 
 // Step 2: Define your component
 const IndexPage = () => {

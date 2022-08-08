@@ -1,9 +1,20 @@
 // Step 1: Import React
-import * as React from "react";
+import React, {useEffect} from "react";
 // import Footer from "../components/footer";
 
 // Step 2: Define your component
 const IndexPage = () => {
+  useEffect(() => {
+    const taScript = document.createElement("script");
+    taScript.src = "https://eu-consent-icon-dev-sf.truste-svc.net/notice?domain=weather.com&locale=en&js=nj&noticeType=bb&country=gb&text=true&gtm=1";
+    document.head.appendChild(taScript);
+
+    return () => {
+      taScript.remove();
+    }
+  }, []);
+
+
   return (
     <div>
       <div>GATSBY TEST PAGE</div>

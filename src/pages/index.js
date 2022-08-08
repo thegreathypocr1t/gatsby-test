@@ -7,8 +7,10 @@ const IndexPage = () => {
   return (
     <div>
       <div>GATSBY TEST PAGE</div>
-      <div id="teconsent"></div>
-      <div id="consent_blackbar"></div>
+      <div>
+        <div id="teconsent"></div>
+        <div id="consent_blackbar"></div>
+      </div>
     </div>
   );
 };

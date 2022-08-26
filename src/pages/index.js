@@ -1,7 +1,7 @@
 // Step 1: Import React
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
-// import Footer from "../components/footer";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
 
 // Step 2: Define your component
 const IndexPage = () => {
@@ -16,21 +16,21 @@ const IndexPage = () => {
   // }, []);
 
   return (
-    <div>
-      <Helmet>
-        <script
-          async="async"
-          src="https://eu-consent-icon-dev-sf.truste-svc.net/notice?domain=weather.com&locale=en&js=nj&noticeType=bb&country=gb&text=true&gtm=1"
-          crossOrigin=""
-          data-react-helmet="true"
-        />
-      </Helmet>
-      <div>GATSBY TEST PAGE</div>
-      <div>
+    <Layout>
+      <h1>GATSBY TEST PAGE</h1>
+      <ul>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/user">User</Link>
+        </li>
+      </ul>
+      {/* <div>
         <div id="teconsent"></div>
         <div id="consent_blackbar"></div>
-      </div>
-    </div>
+      </div> */}
+    </Layout>
   );
 };
 // Step 3: Export your component
